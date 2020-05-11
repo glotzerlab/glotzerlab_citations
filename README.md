@@ -7,14 +7,16 @@ A minimal LaTeX file is included to simplify the generation of a PDF (included i
 
 Some general guidelines:
 
-* Almost all papers in our group should include citations of NumPy, HOOMD-blue, and signac.
+* Almost all papers in our group should include citations of NumPy and HOOMD-blue.
+* Most papers should also cite signac.
+* Most group members use Matplotlib for plot generation and should cite it.
 * Users of freud and HOOMD-blue should check the lists below to make sure that you are also citing the papers corresponding to specific features. Common examples include HPMC, PMFTs, and environment matching.
-* Most papers should cite Matplotlib (assuming they include plots).
-* Pandas, SciPy, and Scikit-learn are commonly used for specific applications.
+* Pandas, SciPy, and Scikit-learn are commonly used for specific applications, so if you use them in your research please copy those citations from below.
+* Anyone directly performing quaternion operations in their scripts should cite rowan.
 
 # Recommended in-text citations
 
-The following are sentences that can be reasonably copy-pasted into either the introduction, conclusion, or acknowledgments section of a paper (with appropriate citations).
+The following are sentences that can be reasonably copy-pasted into either the introduction, conclusion, or acknowledgments section of a LaTeX manuscript (assuming ``citations.bib`` is copied into the paper's bibliography file).
 
 * This work makes use of NumPy \cite{Oliphant2006, vanderWalt2011} and simulations were conducted using the HOOMD-blue simulation toolkit \cite{Anderson2008, Anderson2020, Glaser2015a}.
 * All figures in this paper were generated with Matplotlib \cite{Hunter2007} unless otherwise noted.
