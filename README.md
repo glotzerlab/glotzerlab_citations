@@ -3,7 +3,7 @@
 This repository contains a guide on how to cite standard software used by the Glotzer lab at the University of Michigan.
 The repository contains a Bibtex bib file suitable for direct copying into the bibliography for any paper.
 It includes standard tools in the SciPy stack as well as more specific tools for used by the Glotzer group at the University of Michigan.
-A minimal LaTeX file is included to simplify the generation of a PDF (included in the repo as citations.pdf) with formatted citations in case a fully formatted citation is needed for copying into a document editor like Microsoft Word.
+A minimal LaTeX file is included to simplify the generation of a PDF (included in the repo as ``citations.pdf``) with formatted citations in case a fully formatted citation is needed for copying into a document editor like Microsoft Word.
 
 Some general guidelines:
 
@@ -84,7 +84,7 @@ As a convenience, rerun LaTeX on the provided tex file to regenerate the PDF con
 
 # License
 
-Written in 2020 by Vyas Ramasubramani <vramasub@umich.edu>.
+Written in 2020 by Vyas Ramasubramani (<vramasub@umich.edu>).
 To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to the public domain worldwide.
 This content is distributed without any warranty.
 You should have received a copy of the CC0 Public Domain Dedication along with this repository.
