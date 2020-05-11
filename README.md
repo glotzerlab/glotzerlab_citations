@@ -51,7 +51,7 @@ The following citations are feature-specific and should be included based on wha
 
 ## signac
 
-* Adorf2018a, Ramasubramani2020
+* Adorf2018a, Ramasubramani2018b
 
 ## freud
 
