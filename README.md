@@ -35,7 +35,7 @@ The following lists provide the LaTeX citation keys that should be used for each
 * **Scikit-learn**: Pedregosa2011
 * **Cython**: Behnel2011
 * **Mayavi**: Ramachandran2011 
-* **TensorFlow**: tensorflow2015-whitepaper
+* **TensorFlow**: Abadi2015
 
 ## HOOMD-blue
 
