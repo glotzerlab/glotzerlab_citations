@@ -18,7 +18,7 @@ Some general guidelines:
 
 The following are sentences that can be reasonably copy-pasted into either the introduction, conclusion, or acknowledgments section of a LaTeX manuscript (assuming ``citations.bib`` is copied into the paper's bibliography file).
 
-* This work makes use of NumPy \cite{Oliphant2006, vanderWalt2011} and simulations were conducted using the HOOMD-blue simulation toolkit \cite{Anderson2008, Anderson2020, Glaser2015a}.
+* This work makes use of NumPy \cite{Oliphant2006, vanderWalt2011} and simulations were conducted using the HOOMD-blue simulation toolkit \cite{Anderson2020}.
 * All figures in this paper were generated with Matplotlib \cite{Hunter2007} unless otherwise noted.
 * Data and workflows were managed using the signac framework \cite{Adorf2018a,Ramasubramani2018b}
 
@@ -34,7 +34,7 @@ The following lists provide the LaTeX citation keys that should be used for each
 * **Pandas**: McKinney2010
 * **Scikit-learn**: Pedregosa2011
 * **Cython**: Behnel2011
-* **Mayavi**: Ramachandran2011 
+* **Mayavi**: Ramachandran2011
 * **TensorFlow**: Abadi2015
 
 ## HOOMD-blue
@@ -42,13 +42,16 @@ The following lists provide the LaTeX citation keys that should be used for each
 The generic HOOMD-blue citations (the first line below) should be used in any paper that uses HOOMD-blue.
 The following citations are feature-specific and should be included based on what features of HOOMD-blue are used in a given manuscript.
 
-* **HOOMD-blue**: Anderson2008, Anderson2020, Glaser2015a
+* **HOOMD-blue**: Anderson2020
 * **HPMC**: Anderson2016
 * **Depletion**: Glaser2015b
+* **MPI Domain decomposition**: Glaser2015a
+* **Intra-node scaling on multiple GPUs**: Glaser2020a
 * **DEM**: Spellings2017
 * **Rigid bodies**: Nguyen2011, Glaser2020
 * **PPPM**: Lebard2012
 * **DPD**: Phillips2011
+* **Tree or stencil neighbor list:**: Howard2016
 
 ## signac
 
@@ -69,6 +72,10 @@ The following citations are feature-specific and should be included based on wha
 * **Voronoi**: Rycroft2009
 * **Cubatic OP**: Haji-Akbari2015
 * **Rotational autocorrelation**: Karas2019
+
+## fresnel
+
+There is currently no citation for fresnel.
 
 ## rowan
 
